@@ -2,7 +2,7 @@ module github.com/Dertos-Collection/Dertos-Inferno-App
 
 go 1.18
 
-require gioui.org v0.0.0-20220510194137-0e2e02a66237
+require gioui.org v0.0.0-20220517073035-79f037f983a7
 
 require (
 	gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 // indirect

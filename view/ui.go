@@ -1,4 +1,3 @@
-//
 package view
 
 import (
@@ -34,7 +33,8 @@ func (ui UI) Layout(gtx layout.Context) layout.Dimensions {
 	// TODO: implement
 	return layout.Flex{}.Layout(gtx,
 		layout.Rigid(func(gtx layout.Context) layout.Dimensions {
-			title := material.H1(ui.Th, "Kalispera")
+			title := material.H1(ui.Th, "Test")
+			// title.Alignment = text.Middle
 			return title.Layout(gtx)
 		}),
 	)
