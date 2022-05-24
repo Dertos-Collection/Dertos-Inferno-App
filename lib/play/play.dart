@@ -4,7 +4,7 @@ class PlayPage extends StatefulWidget {
   const PlayPage({Key? key}) : super(key: key);
 
   @override
-  _PlayPageState createState() => _PlayPageState();
+  State<PlayPage> createState() => _PlayPageState();
 }
 
 class _PlayPageState extends State<PlayPage> {
