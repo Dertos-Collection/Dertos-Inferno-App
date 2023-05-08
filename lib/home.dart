@@ -38,11 +38,15 @@ class AppHomePage extends StatelessWidget {
             IconButton(
                 icon: const Icon(Icons.info),
                 onPressed: () {
+                  // var isAKostas =
+                  //     Settings.getValue<bool>("key-is-kostas", false);
+                  // log("Info pressed isAKostas: $isAKostas");
                   log("Info pressed");
                 }),
             IconButton(
                 icon: const Icon(Icons.settings),
                 onPressed: () {
+                  log("settings pressed");
                   Navigator.pushNamed(context, "/settings");
                 }),
           ],

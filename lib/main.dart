@@ -1,5 +1,5 @@
+import 'package:dertos_inferno_app/game/play.dart';
 import 'package:dertos_inferno_app/home.dart';
-import 'package:dertos_inferno_app/play/play.dart';
 import 'package:dertos_inferno_app/settings/settings.dart';
 import 'package:dertos_inferno_app/styles.dart';
 import 'package:flutter/material.dart';
