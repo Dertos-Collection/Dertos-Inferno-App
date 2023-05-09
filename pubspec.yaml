@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^4.0.3
   flutter_settings_screens: ^0.3.2-null-safety
   tuple: ^2.0.1
+  format: ^1.1.1
 
 dev_dependencies:
   flutter_test:
